@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+.samples {
+    margin-top: 50px;
+}
+
+.samples > .academic-sample {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.samples > .academic-sample > .sample-description {
+    padding-right: 50px;
+    padding-left: 50px;
+}

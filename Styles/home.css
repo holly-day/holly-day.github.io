@@ -1,0 +1,24 @@
+
+.about-me > .heading > .name {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.about-me > .heading > .class {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me > .intro {
+    margin-left: 400px;
+    margin-right: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-me > .intro > .paragraph {
+    padding-left: 100px;
+    padding-right: 50px;
+
+}

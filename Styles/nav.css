@@ -1,0 +1,22 @@
+/*Nav bar*/
+.navigation-wrapper {
+    background-color: #12067d;
+    height: 75px;
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    color: #cbcbcb;
+}
+.navigation-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+
+    
+}
+
+.navigation-wrapper > .links-wrapper > .nav-link a {
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
